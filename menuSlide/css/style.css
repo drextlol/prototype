@@ -1,0 +1,44 @@
+ul.menu{
+	display: block;
+}
+
+ul.menu > li{
+	float: left;
+}
+
+ul.menu > li:hover ul{
+	display: block;
+}
+
+ul.menu li > a{
+	color: #FFF;
+	padding: 10px;
+	display: inline-block;
+}
+
+ul.menu li > a.active{
+	color: red;
+}
+
+ul.menu li ul{
+	color: #FFF;
+	padding: 15px 20px;
+	display: none;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	height: 100%;
+}
+
+.mask-menu{
+	background: #000;
+	height: 35px;
+	color: #FFF;
+	position: relative;
+	overflow: hidden;
+  	transition: all 0.2s linear;
+}
+
+.mask-menu.active{
+	height: 250px;
+}

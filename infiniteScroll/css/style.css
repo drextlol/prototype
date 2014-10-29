@@ -1,0 +1,30 @@
+.content{
+	width: 980px;
+	min-height: 300px;
+	margin: 0 auto 30px auto;
+	background: #F1F1F1;
+	padding: 20px;
+}
+
+.loading{
+	width: 100%;
+	text-align: center;
+	margin: 0 auto;
+}
+
+.loading .lnk-loading{
+	background: #ffd76b;
+	display: inline-block;
+	color: #000;
+	padding: 20px;
+	text-decoration: none;
+}
+
+.loading .lnk-loading:hover{
+	opacity: 0.7;
+}
+
+.ctn-element{
+	font-family: Arial;
+	font-size: 15px;
+}
