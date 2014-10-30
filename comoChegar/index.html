@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>comoChegar</title>
+	<link rel="stylesheet" href="../theme/css/reset-2.0.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<!-- Início do html de modal -->
+	<a href="#primeiro" class="mdl-show">Modal primeiro conteúdo</a>
+	<a href="#segundo" class="mdl-show">Modal segundo conteúdo</a>
+
+	<div class="modal">
+		<a href="#segundo" class="mdl-close">Fechar Modal</a>
+
+		<div class="mdl" id="primeiro">
+			<h1>Primeiro Conteúdo</h1>
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+			<br />
+			<br />
+			It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
+		</div>
+
+		<div class="mdl" id="segundo">
+			<h1>Segundo Conteúdo</h1>
+			Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+		</div>
+	</div>
+	<!-- Fim do html de modal -->
+
+	<br />
+	<br />
+	<br />
+
+	<!-- Início do html de tabs -->
+	<div class="tabs">
+		<ul class="tabs-links">
+			<li><a href="#tab-carro" class="active">Carro</a></li>
+			<li><a href="#tab-metro">Metro</a></li>
+			<li><a href="#tab-onibus">Onibus</a></li>
+			<li><a href="#tab-bike">Bike</a></li>
+		</ul>
+
+		<div class="tabs-content">
+			
+			<div class="tab active" id="tab-carro">
+				Carro - ZONA SUL: a melhor opção é pela Av. Nove de Julho, pegando a saída para a Rua Santo Antônio antes do viaduto. Estacionamento na Rua Santo Amaro.
+ 				ZONA NORTE: pela Vinte Três de Maio, pegar o retorno na saída da Av. Prestes Maia, e ao cair novamente na Av. Vinte e Três de Maio pegar a saída da Rua Santo Amaro, já em frente ao prédio do Red Bull Station.
+			</div>
+
+			<div class="tab" id="tab-metro">
+				Metro - ZONA SUL: a melhor opção é pela Av. Nove de Julho, pegando a saída para a Rua Santo Antônio antes do viaduto. Estacionamento na Rua Santo Amaro.
+ 				ZONA NORTE: pela Vinte Três de Maio, pegar o retorno na saída da Av. Prestes Maia, e ao cair novamente na Av. Vinte e Três de Maio pegar a saída da Rua Santo Amaro, já em frente ao prédio do Red Bull Station.
+			</div>
+
+			<div class="tab" id="tab-onibus">
+				Onibus - ZONA SUL: a melhor opção é pela Av. Nove de Julho, pegando a saída para a Rua Santo Antônio antes do viaduto. Estacionamento na Rua Santo Amaro.
+ 				ZONA NORTE: pela Vinte Três de Maio, pegar o retorno na saída da Av. Prestes Maia, e ao cair novamente na Av. Vinte e Três de Maio pegar a saída da Rua Santo Amaro, já em frente ao prédio do Red Bull Station.
+			</div>
+
+			<div class="tab" id="tab-bike">
+				Bike - ZONA SUL: a melhor opção é pela Av. Nove de Julho, pegando a saída para a Rua Santo Antônio antes do viaduto. Estacionamento na Rua Santo Amaro.
+ 				ZONA NORTE: pela Vinte Três de Maio, pegar o retorno na saída da Av. Prestes Maia, e ao cair novamente na Av. Vinte e Três de Maio pegar a saída da Rua Santo Amaro, já em frente ao prédio do Red Bull Station.
+			</div>
+
+		</div>
+	</div>
+	<!-- Fim do html de tabs -->
+
+	<br />
+	<br />
+	<br />
+
+	<div id="map"></div>
+
+	<script type="text/javascript" src="../theme/libs/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyASm3CwaK9qtcZEWYa-iQwHaGi3gcosAJc&sensor=false"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</body>
+</html>
